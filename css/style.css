@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    height: 3000;
+}
+
+
+/* ----------------------  Start Header -----------------------*/
+.header {
+    background-color: turquoise;
+    color: white;
+    height: 70px;
+}
+
+
+.header a {
+    float: right;
+    margin-top: 10px;
+}
+
+
+.header p {
+    margin-top: 10px;
+}
+
+
+/* ----------------------  End Header -----------------------*/
+
+
+
+
+/* ----------------------  Start Slider -----------------------*/
+
+.carousel-indicators li {
+    height: 15px;
+    background-color: cadetblue;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40, 161, 241, 0.363);
+    z-index: 1;
+}
+
+/* ----------------------  End Slider -----------------------*/
+
+
+
+/* ----------------------  Start Features -----------------------*/
+
+.features {
+    margin: 80px;
+
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.features i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(210, 30, 30);
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.features h3 {
+    padding: 5px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(247, 206, 130);
+}
+
+.features p {
+    color: rgb(red, green, blue);
+    line-height: 1.8;
+}
+
+
+/* ----------------------  End Features -----------------------*/
+
+
+/* ----------------------  Start Our Team -----------------------*/
+
+
+.our-team {
+    background-color: #eee;
+    padding: 30px;
+    background-image: url('../images/b-g-team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ----------------------  End Our Team -----------------------*/
+
+
+
+/* ----------------------  Start Statistic -----------------------*/
+
+
+.statistic {
+    width: 100%;
+    height: 1200px;
+    background-image: url('../images/statistic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-top: 100px;
+}
+
+
+
+.statistic .overlay {
+    padding-top: 200px;
+    background-color: rgba(0, 0, 0, 0.432) ;
+    width: 100%;
+    height: 100%;
+}
+
+
+.statistic h2 {
+    color: white;
+}
+
+.statistic .overlay h3 {
+    color: white;
+    background-color: rgb(240, 186, 85);
+    display: inline-block;
+    padding: 5px;
+}
+
+.statistic .overlay p {
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+}
+
+/* ----------------------  End Statistic -----------------------*/
+
+
+.our_education_types {
+    margin-top: 100px;
+    height: 100%;
+    background-color: #eee;
+    line-height: 250px;
+    border-bottom: 3px solid burlywood;
+}
+
+
+
+.recent_courses {
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(187, 236, 238);
+}
+
+.recent_courses .btn-danger {
+    background-color: burlywood;
+    border-color: burlywood;
+}
+
+.recent_courses .btn-danger:hover {
+    background-color: red;
+}
+
+
+
+
+
+/*---------------------- footer -----------*/
+
+footer {
+    background-color: burlywood;
+    padding-top: 30px;
+    background-image: url('../images/statistic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+footer ul li {
+    list-style: none;
+}
+
+
+
+
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+}
+
+
+
+.jumbotron .blog_info {
+    flex: 2;
+}
+
+
+.jumbotron .blog_image {
+    flex: 1;
+}
+
+
+
+
+.web_site {
+    line-height: 2;
+    padding: 10px;
+}
+
+
+
+.coursses img:hover {
+    transform: scale(1.1);
+}
